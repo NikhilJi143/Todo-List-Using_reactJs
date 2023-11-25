@@ -1,0 +1,55 @@
+/* Styling for the task container */
+.taskBox {
+  width: 94%;
+  margin: auto;
+  max-height: 55vh;
+  padding: 2px;
+  background-color: #4f52fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+/* Removing the scrollbar for webkit browsers */
+.taskBox::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Styling for individual tasks within the task container */
+.task {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #e9e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 0.8rem;
+  color: black;
+  transition: box-shadow 0.3s;
+}
+
+/* Hover effect for individual tasks */
+.task:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for icons within individual tasks */
+.task .icons {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #918c8c;
+  transition: color 0.3s;
+}
+
+/* Hover effect for icons within individual tasks */
+.task .icons:hover {
+  color: #cc0000;
+  transform: scale(1.2);
+}

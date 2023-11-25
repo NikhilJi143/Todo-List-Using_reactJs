@@ -1,0 +1,56 @@
+/* Styling for the task container */
+.taskContainer {
+  width: 95%;
+  height: 20vh;
+  background-color: #81807f;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+/* Styling for the form within the task container */
+.taskContainer form {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the input within the form */
+.taskContainer form input {
+  width: 100%;
+  padding: 0.5rem 8rem;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+/* Styling for the button within the form */
+.taskContainer form button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for the button */
+.taskContainer form button:hover {
+  background-color: rgb(50, 53, 233);
+  color: wheat;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
